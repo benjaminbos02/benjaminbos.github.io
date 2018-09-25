@@ -1,0 +1,52 @@
+body {
+	
+	background-color: darkslategray;
+}
+
+h1 {
+	
+	color: chartreuse;
+	text-align: center;
+	font-family: arial, sans-serif;
+}
+
+p {
+	
+	color: white;
+	text-align: center;
+	font-family: arial, sans-serif;
+}
+
+ul {
+	
+	color: white;
+	background-color: slategray;
+	font-family: ariall, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 200px;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 50;
+	position: fixed;
+}
+
+li a {
+	
+	display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	
+    background-color: chartreuse;
+    color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
